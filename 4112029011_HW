@@ -1,0 +1,44 @@
+{
+  "nbformat": 4,
+  "nbformat_minor": 0,
+  "metadata": {
+    "colab": {
+      "provenance": []
+    },
+    "kernelspec": {
+      "name": "python3",
+      "display_name": "Python 3"
+    },
+    "language_info": {
+      "name": "python"
+    }
+  },
+  "cells": [
+    {
+      "cell_type": "code",
+      "execution_count": 2,
+      "metadata": {
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        },
+        "id": "Pf9H_yuKhCC6",
+        "outputId": "de67b55b-b70f-42c6-b117-f30a1d7e47db"
+      },
+      "outputs": [
+        {
+          "output_type": "stream",
+          "name": "stdout",
+          "text": [
+            "變數x的值是:5\n",
+            "變數x的記憶體地址是:135349188346224\n"
+          ]
+        }
+      ],
+      "source": [
+        " x=5\n",
+        "print(f\"變數x的值是:{x}\")\n",
+        "print(f\"變數x的記憶體地址是:{id(x)}\")"
+      ]
+    }
+  ]
+}
